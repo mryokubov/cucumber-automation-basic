@@ -11,6 +11,11 @@ public class Main {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
+        driver.get("http://automationpractice.com");
+
+        String pageSource = driver.getPageSource();
+
+        System.out.println(pageSource);
 
     }
 }

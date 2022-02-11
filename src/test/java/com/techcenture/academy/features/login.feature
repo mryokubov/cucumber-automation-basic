@@ -3,6 +3,7 @@
 Feature: Login Functionality of OpenMRS Demo APP
 
   Scenario: Login Functionality Positive Test
+#    each step here will be mapped to its implememting methods called step definitions
     Given user is on the login page
     When user enters username and password
     And user selects inpatient ward
